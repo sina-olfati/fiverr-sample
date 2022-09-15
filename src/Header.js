@@ -1,19 +1,23 @@
 import React from 'react'
+import './Header.css'
+
+// icons
+import LanguageIcon from '@mui/icons-material/Language';
+import CurrencyPoundIcon from '@mui/icons-material/CurrencyPound';
 
 const Header = () => {
   return (
-    <div className='header-container'>
+    <div className='header'>
         <nav>
-            <img src='#' />
+            <h2>fiverr<span>.</span></h2>
             <ul>
                 <li><a>Fiverr Business</a></li>
                 <li><a>Explore</a></li>
-                <li><a><div><icon>/icon/</icon> <p>English</p></div></a></li>
-                <li><a><div><icon>/icon/</icon> <p>GBP</p></div></a></li>
-                <li><a><div><icon>/icon/</icon> <p>GBP</p></div></a></li>
+                <li><a><div><LanguageIcon /><p> English</p></div></a></li>
+                <li><a><div><CurrencyPoundIcon /> <p>GBP</p></div></a></li>
                 <li><a>Become a Seller</a></li>
                 <li><a>Sign in</a></li>
-                <li><a>Join</a></li>
+                <li className='join'><a>Join</a></li>
             </ul>
         </nav>
 
