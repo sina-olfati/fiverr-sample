@@ -4,6 +4,7 @@ import './Header.css'
 // icons
 import LanguageIcon from '@mui/icons-material/Language';
 import CurrencyPoundIcon from '@mui/icons-material/CurrencyPound';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
   return (
@@ -22,20 +23,20 @@ const Header = () => {
         </nav>
 
         <section>
-            <h1>Find the perfect <i>freelance</i><br />services for your business</h1>
-            <div>
-                <div>/search icon/</div>
-                <input />
-                <button>Search</button>
-            </div>
-            <div>
-                <h3>Popular:</h3>
-                <div>
+            <div className='section-container'>
+                <h1>Find the perfect <i>freelance</i><br />services for your business</h1>
+                <div className='search'>
+                    <div><SearchIcon /></div>
+                    <input placeholder="Try ''building mobile app''" />
+                    <button>Search</button>
+                </div>
+                <div className='trends'>
+                    <h3>Popular:</h3>
                     <ul>
-                        <a href='#'><li>Website Design</li></a>
-                        <a href='#'><li>WordPress</li></a>
-                        <a href='#'><li>Logo Design</li></a>
-                        <a href='#'><li>Video Editing</li></a>
+                        <li><a href='#'>Website Design</a></li>
+                        <li><a href='#'>WordPress</a></li>
+                        <li><a href='#'>Logo Design</a></li>
+                        <li><a href='#'>Video Editing</a></li>
                     </ul>
                 </div>
             </div>
