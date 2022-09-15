@@ -1,5 +1,4 @@
 .header {
-    border: solid 1px;
     background-color: seagreen;
     height: 680px;
     position: relative;
@@ -95,10 +94,6 @@
 .header .join:hover {
     background-color: rgb(0, 174, 84);
     border-color: rgb(0, 174, 84);
-}
-
-.header .join:hover a{
-    color: black;
 }
 
 /* Section */
