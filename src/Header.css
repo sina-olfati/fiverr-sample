@@ -3,6 +3,13 @@
     background-color: rgb(141, 50, 34);
 }
 
+.header a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
 .header ul {
     list-style-type: none;
     display: flex;
@@ -21,6 +28,7 @@
     font-weight: 700;
     letter-spacing: 0px;
     color: white;
+    cursor: pointer;
 }
 
 .header nav h2 span {
@@ -31,16 +39,10 @@
 
 .header nav ul li {
     padding: 0px 10px;
-    color: white;
     font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header nav ul li a {
-    white-space: nowrap;
-    /* border: solid 1px; */
 }
 
 .header nav ul li div {
@@ -57,14 +59,19 @@
 }
 
 .header .join {
-    border: solid 1px;
+    border: solid 1px white;
     border-radius: 5px;
     padding: 5px 25px;
     transition: 0.5s;
     margin: 0 0 0 10px;
+    position: relative;
 }
 
 .header .join:hover {
     background-color: white;
+    color: black;
+}
+
+.header .join:hover a{
     color: black;
 }

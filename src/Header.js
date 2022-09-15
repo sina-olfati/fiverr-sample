@@ -9,15 +9,15 @@ const Header = () => {
   return (
     <div className='header'>
         <nav>
-            <h2>fiverr<span>.</span></h2>
+            <a href='#'><h2>fiverr<span>.</span></h2></a>
             <ul>
-                <li><a>Fiverr Business</a></li>
-                <li><a>Explore</a></li>
-                <li><a><div><LanguageIcon /><p> English</p></div></a></li>
-                <li><a><div><CurrencyPoundIcon /> <p>GBP</p></div></a></li>
-                <li><a>Become a Seller</a></li>
-                <li><a>Sign in</a></li>
-                <li className='join'><a>Join</a></li>
+                <li><a href='#'>Fiverr Business</a></li>
+                <li><a href='#'>Explore</a></li>
+                <li><a href='#'><div><LanguageIcon /><p> English</p></div></a></li>
+                <li><a href='#'><div><CurrencyPoundIcon /> <p>GBP</p></div></a></li>
+                <li><a href='#'>Become a Seller</a></li>
+                <li><a href='#'>Sign in</a></li>
+                <li className='join'><a href='#'>Join</a></li>
             </ul>
         </nav>
 
@@ -32,10 +32,10 @@ const Header = () => {
                 <h3>Popular:</h3>
                 <div>
                     <ul>
-                        <a><li>Website Design</li></a>
-                        <a><li>WordPress</li></a>
-                        <a><li>Logo Design</li></a>
-                        <a><li>Video Editing</li></a>
+                        <a href='#'><li>Website Design</li></a>
+                        <a href='#'><li>WordPress</li></a>
+                        <a href='#'><li>Logo Design</li></a>
+                        <a href='#'><li>Video Editing</li></a>
                     </ul>
                 </div>
             </div>
