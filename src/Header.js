@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Header.css'
 
 // icons
@@ -7,8 +7,23 @@ import CurrencyPoundIcon from '@mui/icons-material/CurrencyPound';
 import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
+    const [images, setImages] = useState(['one', 'two', 'three', 'four', 'five'])
+    const [image, setImage] = useState('one')
+    
+    useEffect(() => {
+        
+        var a = 1
+        const interval = setInterval(() => {
+            const theImage = images[a]
+            setImage(theImage)
+            a < 4 ? a++ : a = 0 
+            console.log(a)
+        }, 6000)
+
+    }, [])
+
   return (
-    <div className='header'>
+    <div className={`header ${image}`}>
         <nav>
             <a href='#'><h2>fiverr<span>.</span></h2></a>
             <ul>

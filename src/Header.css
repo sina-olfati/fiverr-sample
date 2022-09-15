@@ -1,15 +1,35 @@
 .header {
     border: solid 1px;
-    background-color: rgb(141, 50, 34);
+    background-color: seagreen;
     height: 680px;
     position: relative;
+    background-position: -150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.header.one {
+    background-image: url('./assets/images/one.png');
+}
+.header.two {
+    background-image: url('./assets/images/two.png');
+}
+.header.three {
+    background-image: url('./assets/images/three.png');
+}
+.header.four {
+    background-image: url('./assets/images/four.png');
+}
+.header.five {
+    background-image: url('./assets/images/five.png');
 }
 
 .header a {
     white-space: nowrap;
     text-decoration: none;
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .header ul {
@@ -43,6 +63,7 @@
 
 .header nav ul li {
     padding: 0px 10px;
+    font-size: 1.05rem;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -57,23 +78,23 @@
 }
 
 .header nav svg {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     margin: 0 3px;
 }
 
 .header .join {
     border: solid 1px white;
     border-radius: 5px;
-    padding: 5px 25px;
-    transition: 0.5s;
+    padding: 3px 23px;
+    transition: 0.3s;
     margin: 0 0 0 10px;
     position: relative;
 }
 
 .header .join:hover {
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 174, 84);
+    border-color: rgb(0, 174, 84);
 }
 
 .header .join:hover a{
@@ -96,8 +117,8 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    bottom: 60px;
-    margin-left: 100px;
+    bottom: 70px;
+    margin-left: 90px;
 }
 
 .section-container h1 {
@@ -146,6 +167,11 @@
     font-weight: 600;
     color: white;
     cursor: pointer;
+}
+
+.header .search button:hover {
+    background-color: rgb(0, 174, 84);
+
 }
 
 .header .trends {
