@@ -6,9 +6,16 @@ import facebook from './assets/images/facebook.svg'
 import google from './assets/images/google.png'
 import apple from './assets/images/apple.svg'
 
-const Join = () => {
+const Join = ({setJoiner}) => {
+
+  const closeIt = (e) => {
+    console.log(e)
+    e.target.closest(".join-content") ? console.log("hooray") : 
+    setJoiner()
+  }
+
   return (
-    <div className='join-container'>
+    <div className='join-container' onClick={(e) => closeIt(e)}>
       <div className='join-content'>
         <h1>Join Fiverr</h1>
         <div className='ready-ways'>
@@ -21,9 +28,10 @@ const Join = () => {
             <input placeholder='Enter your email'/>
             <button>Continue</button>
             <p>By joining I agree to receive emails from Fiverr.</p>
+            <div className='line'></div>
         </div>
         <div className='signIn'>
-            <h3>Already a member? <a>Sign In</a></h3>
+            <h3>Already a member? <a href='#'>Sign In</a></h3>
         </div>
       </div>
     </div>
