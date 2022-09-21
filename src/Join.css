@@ -1,0 +1,84 @@
+.join-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-content {
+    border: solid 1px;
+    background-color: white;
+    height: 540px;
+    width: 370px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+
+.join-content h1 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+}
+
+.ready-ways {
+    border-bottom: solid 1px rgba(192, 192, 192, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ready-ways button {
+    border: solid 1px rgba(192, 192, 192, 0.5);
+    border-radius: 3px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 7px 0;
+    height: 55px;
+    cursor: pointer;
+}
+.ready-ways button:hover {
+    background-color: rgba(192, 192, 192, 0.1);
+}
+
+.ready-ways button:first-child {
+    background-color: #4267B2;
+    color: white;
+}
+.ready-ways button:first-child:hover {
+    background-color: #5375b9;
+}
+
+.ready-ways img {
+    width: 18px;
+    position: absolute;
+    left: 20px;
+}
+
+.or {
+    position: absolute;
+    bottom: -17px;
+    padding: 7px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
