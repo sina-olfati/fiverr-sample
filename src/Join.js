@@ -18,7 +18,7 @@ const Join = () => {
             <div className='or'>OR</div>
         </div>
         <div className='hard-way'>
-            <input />
+            <input placeholder='Enter your email'/>
             <button>Continue</button>
             <p>By joining I agree to receive emails from Fiverr.</p>
         </div>
