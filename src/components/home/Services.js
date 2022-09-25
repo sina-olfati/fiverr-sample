@@ -82,8 +82,8 @@ const Services = () => {
 
       </div>
     </div>
-    <button className='right-button' onClick={() => slider < 2 ? setSlider(slider + 1) : null}>+</button>
-    <button className='left-button' onClick={() => slider > 1 ? setSlider(slider - 1) : null}>-</button>
+    <button className='right-button' onClick={() => slider < 2 ? setSlider(slider + 1) : null}> + </button>
+    <button className='left-button' onClick={() => slider > 1 ? setSlider(slider - 1) : null}> - </button>
     </div>
   )
 }
