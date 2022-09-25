@@ -1,0 +1,78 @@
+/* Navbar */
+
+.navbar-container {
+    width: 100vw;
+}
+
+.navbar-container a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-container ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-container nav {
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-container nav h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-container nav h2 span {
+    color: rgb(0, 174, 0);
+    font-size: 2.7rem;
+    line-height: 2px;
+}
+
+.navbar-container nav ul li {
+    padding: 0px 10px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container nav ul li div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.navbar-container nav svg {
+    width: 16px;
+    height: 16px;
+    margin: 0 3px;
+}
+
+.navbar-container .join {
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 3px 23px;
+    transition: 0.3s;
+    margin: 0 0 0 10px;
+    position: relative;
+}
+
+.navbar-container .join:hover {
+    background-color: rgb(0, 174, 84);
+    border-color: rgb(0, 174, 84);
+}

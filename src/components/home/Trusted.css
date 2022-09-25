@@ -1,0 +1,15 @@
+.trusted-container {
+    /* border: solid 1px; */
+    background-color: rgba(128, 128, 128, 0.1);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.trusted-container h2 {
+    color: rgba(128, 128, 128, 0.6);
+    font-size: 1.3rem;
+    font-weight: 500;
+}

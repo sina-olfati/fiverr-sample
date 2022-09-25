@@ -2,9 +2,9 @@ import React from 'react'
 import './Join.css'
 
 // images
-import facebook from './assets/images/facebook.svg'
-import google from './assets/images/google.png'
-import apple from './assets/images/apple.svg'
+import facebook from '../../assets/images/facebook.svg'
+import google from '../../assets/images/google.png'
+import apple from '../../assets/images/apple.svg'
 
 const Join = ({setJoiner}) => {
 
