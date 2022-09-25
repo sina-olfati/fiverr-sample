@@ -1,0 +1,36 @@
+.services-container {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 1350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.services-container h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2.2rem;
+}
+
+.services-container .slider {
+    display: flex;
+    width: 2700px;
+    border: solid;
+    position: relative;
+}
+
+.services-container .one,
+.services-container .two {
+    border: solid red;
+    display: flex;
+    width: 1350px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-container .right-button,
+.services-container .left-button {
+    position: absolute;
+}
