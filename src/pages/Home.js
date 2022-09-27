@@ -10,9 +10,9 @@ import Fingertips from '../components/home/Fingertips'
 const Home = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Trusted />
-      <Services /> */}
+      <Services />
       <Fingertips />
       
       <Navbar />

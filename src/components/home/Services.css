@@ -2,7 +2,7 @@
     position: relative;
     width: 1400px;
     margin: 80px auto;
-    padding: 0 0 100px 0;
+    padding: 0 0 30px 0;
 }
 
 .services-container {
@@ -16,7 +16,7 @@
 }
 
 .services-container h1 {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.7);
     font-size: 2.2rem;
     margin: 20px 18px;
 }
@@ -44,17 +44,36 @@
     position: relative;
     width: 235px;
     height: 340px;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: gray;
     overflow: hidden;
+    transition: 0.5s;
 }
 
-.services-container .item:hover::before {
+.services-container .item .shadow {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    transition: 0.5s;
+}
+.services-container .item .shadow:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+
+/* .services-container .item:hover::before {
     content: '';
     position: absolute;
     inset: 0;
     background-color: rgba(255, 255, 255, 0.1);
+    animation: whiter 0.5s;
 }
+
+@keyframes whiter {
+    from {background-color: rgba(255, 255, 255, 0.0)}
+    to {background-color: rgba(255, 255, 255, 0.1)}
+  } */
 
 .services-container .item img {
     width: 100%;
@@ -94,11 +113,11 @@
 
 
 .services .right-button {
-    right: -8px;
+    right: -3px;
     top: 220px;
 }
 .services .left-button {
-    left: -8px;
+    left: -3px;
     top: 220px;
 }
 

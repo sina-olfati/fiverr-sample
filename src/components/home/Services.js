@@ -27,35 +27,40 @@ const Services = () => {
 
         <div className='one'>
             <div className='item'>
-                <img src={a1} />
+                <div className='shadow'></div>
+                    <img src={a1} />
                 <div className='texts'>
                     <p>Build your brand</p>
                     <h2>Logo Design</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a2} />
+                <div className='shadow'></div>
+                <img src={a2} />
                 <div className='texts'>
                     <p>Customize your site</p>
                     <h2>WordPress</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a3} />
+                <div className='shadow'></div>
+                <img src={a3} />
                 <div className='texts'>
                     <p>Share your message</p>
                     <h2>Voice Over</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a4} />
+                <div className='shadow'></div>
+                <img src={a4} />
                 <div className='texts'>
                     <p>Engage your audience</p>
                     <h2>Video Explainer</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a5} />
+                <div className='shadow'></div>
+                <img src={a5} />
                 <div className='texts'>
                     <p>Reach more customers</p>
                     <h2>Social Media</h2>
@@ -65,35 +70,40 @@ const Services = () => {
 
         <div className='two'>
         <div className='item'>
-                <img src={a6} />
+            <div className='shadow'></div>
+                    <img src={a6} />
                 <div className='texts'>
                     <p>Unlock growth online</p>
                     <h2>SEO</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a7} />
+                <div className='shadow'></div>
+                <img src={a7} />
                 <div className='texts'>
                     <p>Color your dreams</p>
                     <h2>Illustration</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a8} />
+                <div className='shadow'></div>
+                <img src={a8} />
                 <div className='texts'>
                     <p>Go global</p>
                     <h2>Translation</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a9} />
+                <div className='shadow'></div>
+                <img src={a9} />
                 <div className='texts'>
                     <p>Learn your business</p>
                     <h2>Data Entry</h2>
                 </div>
             </div>
             <div className='item'>
-            <img src={a10} />
+                <div className='shadow'></div>
+                <img src={a10} />
                 <div className='texts'>
                     <p>Showcase your story</p>
                     <h2>Book Covers</h2>
