@@ -1,0 +1,62 @@
+.marketplace-conteiner {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.marketplace-conteiner h1 {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 50px 30px;
+}
+
+.marketplace-conteiner .options {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.marketplace-conteiner .options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.marketplace-conteiner .options ul li {
+    margin: 20px 0;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marketplace-conteiner .options ul li div {
+    /* margin: 20px 50px; */
+    width: fit-content;
+    cursor: pointer;
+}
+
+.marketplace-conteiner .options ul img {
+    border-bottom: solid 1.6px rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 50px;
+    padding: 5px 0;
+    transition: 0.2s;
+}
+
+.marketplace-conteiner .options ul div:hover img {
+    border-bottom: solid 1.6px rgb(0, 203, 0);
+    padding: 5px 20px;
+}
+
+.marketplace-conteiner .options ul h4 {
+    margin: 5px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
