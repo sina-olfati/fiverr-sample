@@ -11,10 +11,10 @@ import Marketplace from '../components/home/Marketplace'
 const Home = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Trusted />
       <Services />
-      <Fingertips /> */}
+      <Fingertips />
       <Marketplace />
       
       <Navbar />
