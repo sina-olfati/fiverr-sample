@@ -1,7 +1,8 @@
 .services {
     position: relative;
-    width: 1350px;
-    margin: 0 auto;
+    width: 1400px;
+    margin: 80px auto;
+    padding: 0 0 100px 0;
 }
 
 .services-container {
@@ -17,7 +18,7 @@
 .services-container h1 {
     color: rgba(0, 0, 0, 0.8);
     font-size: 2.2rem;
-    margin: 20px 0;
+    margin: 20px 18px;
 }
 
 .services-container .slider {
