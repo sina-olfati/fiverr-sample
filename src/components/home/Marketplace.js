@@ -20,55 +20,55 @@ const Marketplace = () => {
         <ul>
             <li>
                 <div>
-                    <img src={b1} />
+                    <img src={b1} alt='image options'/>
                     <h4>Graphics & Design</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b2} />
+                    <img src={b2} alt='image options'/>
                     <h4>Digital Marketing</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b3} />
+                    <img src={b3} alt='image options'/>
                     <h4>Writing & Translation</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b4} />
+                    <img src={b4} alt='image options'/>
                     <h4>Video & Animation</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b5} />
+                    <img src={b5} alt='image options'/>
                     <h4>Music & Audio</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b6} />
+                    <img src={b6} alt='image options'/>
                     <h4>Programming & Tech</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b7} />
+                    <img src={b7} alt='image options'/>
                     <h4>Business</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b8} />
+                    <img src={b8} alt='image options'/>
                     <h4>Lifestyle</h4>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={b9} />
+                    <img src={b9} alt='image options'/>
                     <h4>Data</h4>
                 </div>
             </li>
