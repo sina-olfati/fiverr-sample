@@ -10,8 +10,7 @@ const Join = ({setJoiner}) => {
 
   const closeIt = (e) => {
     console.log(e)
-    e.target.closest(".join-content") ? console.log("hooray") : 
-    setJoiner()
+    e.target.closest(".join-content") ? console.log("join popped up") : setJoiner()
   }
 
   return (

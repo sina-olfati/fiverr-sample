@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Fingertips.css'
 
 // images
 import tick from '../../assets/images/tick.png'
+import c from '../../assets/images/c.png'
+import c1 from '../../assets/images/c1.png'
+
+// video
+import video from '../../assets/images/video.mp4'
 
 const Fingertips = () => {
+
+  const [pop, setPop] = useState(false);
+  console.log("pop", pop)
+  
+  const popping = () => {
+    setPop(!pop)
+  }
+
+  const closeIt = (e) => {
+    console.log(e)
+    e.target.closest(".the-vid") ? console.log("hoorayyyy") : popping()
+  }
+
   return (
     <div className='fingertips-container'>
 
@@ -30,8 +48,18 @@ const Fingertips = () => {
         </ul>
       </div>
 
-      <div className='video'>
-        video here
+      <div className='video' onClick={() => popping()}>
+        <img src={c} alt='video popup image' className='cover' />
+        <img src={c1} alt='video popup image' className='play'/>
+
+        {pop ?
+        <div className='popup' onClick={(e) => closeIt(e)}>
+          <video width="900" controls className='the-vid'>
+            <source src={video} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div> : null
+        }
       </div>
 
     </div>

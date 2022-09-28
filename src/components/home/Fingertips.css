@@ -62,8 +62,46 @@
 .fingertips-container .video {
     width: 50%;
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+    position: relative;
+}
+
+.fingertips-container .video .cover {
+    width: 680px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+.fingertips-container .video .play {
+    position: absolute;
+    top: 190px;
+    left: 290px;
+    width: 45px;
+    padding: 20px;
+    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+}
+
+
+.fingertips-container .video .popup {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.399);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fingertips-container .video .the-vid {
+    border-radius: 5px 5px 0 0;
+    z-index: 2000;
 }
 
 
