@@ -3,17 +3,17 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;  
-    background-color: rgb(12, 12, 87);  
+    background-color: rgb(11, 11, 74);  
+    padding: 50px 0 90px 0;
 }
 
 .business-container .texts {
-    border: solid 1px blue;
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-left: 30px;
+    padding-left: 80px;
     color: white;
     text-align: left;
 }
@@ -80,18 +80,33 @@
     font-size: 1.1rem;
 }
 
-.header .search button {
-    background-color: rgb(0, 194, 94);
+.business-container .texts button {
+    background-color: rgb(45, 194, 117);
     border: none;
-    width: 110px;
-    border-radius: 0 3px 3px 0;
-    font-size: 1.1rem;
+    width: 230px;
+    border-radius: 3px;
+    font-size: 1rem;
     font-weight: 600;
     color: white;
     cursor: pointer;
+    padding: 12px 0;
+    margin-top: 50px;
 }
 
-.header .search button:hover {
-    background-color: rgb(0, 174, 84);
+.business-container .texts button:hover {
+    background-color: rgb(40, 162, 99);
+}
 
+/* image */
+.business-container .image {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.business-container .image img{
+    width: 750px;
+    position: relative;
+    top: 50px;
 }
