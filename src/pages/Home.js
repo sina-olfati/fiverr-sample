@@ -7,17 +7,19 @@ import Trusted from '../components/home/Trusted'
 import Services from '../components/home/Services'
 import Fingertips from '../components/home/Fingertips'
 import Marketplace from '../components/home/Marketplace'
+import Business from '../components/home/Business'
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Trusted />
       <Services />
       <Fingertips />
-      <Marketplace />
+      <Marketplace /> */}
+      <Business />
       
-      <Navbar />
+      {/* <Navbar /> */}
     </div>
   )
 }
