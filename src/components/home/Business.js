@@ -8,7 +8,7 @@ const Business = () => {
   return (
     <div className='business-container'>
       <div className='texts'>
-        <div className='fiverr'><h2>fiverr</h2><h3>business.</h3><div className='new'>new</div></div>
+        <div className='fiverr'><h2>fiverr </h2> <h3> business.</h3><div className='new'>NEW</div></div>
         <h1>A business solution designed for <i>teams</i></h1>
         <h4>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses</h4>
         <div className='tick-p'><img src={tick} /><p>Connect to freelancers with proven business experience</p></div>
