@@ -92,11 +92,17 @@
 .fingertips-container .video .popup {
     position: fixed;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.399);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    animation: vid 0.2s;
+}
+
+@keyframes vid {
+    from {filter: opacity(0);}
+    to {filter: opacity(1);}
 }
 
 .fingertips-container .video .the-vid {
