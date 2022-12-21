@@ -12,14 +12,14 @@ import Business from '../components/home/Business'
 const Home = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Trusted />
       <Services />
       <Fingertips />
-      <Marketplace /> */}
+      <Marketplace />
       <Business />
       
-      {/* <Navbar /> */}
+      <Navbar />
     </div>
   )
 }
